@@ -10,7 +10,7 @@
                 <?php if ($this->options->JBanQuan) : ?>
                     <span class="info"><?php $this->options->JBanQuan() ?></span>
                 <?php else : ?>
-                    <span class="info">2019 - 2020 © Reach - <a href="//ae.js.cn">Joe</a></span>
+                    <span class="info">2015 - <?php echo date('Y') ?> © 顿搜 - <a href="//dun.so">dun.so</a></span>
                 <?php endif; ?>
                 <?php if ($this->options->JCountTime === 'on') : ?>
                     <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -23,9 +23,9 @@
                 <?php if ($this->options->JBanQuanLinks) : ?>
                     <?php $this->options->JBanQuanLinks() ?>
                 <?php else : ?>
-                    <a href="//ae.js.cn">JOE</a>
-                    <a target="_blank" href="<?php $this->options->feedUrl(); ?>">RSS</a>
-                    <a target="_blank" href="<?php echo $this->options->siteUrl . "index.php/sitemap" ?>">MAP</a>
+                    <!--<a href="//dun.so">顿搜</a>
+                    <a target="_blank" href="<?php /*$this->options->feedUrl(); */?>">RSS</a>
+                    <a target="_blank" href="<?php /*echo $this->options->siteUrl . "index.php/sitemap" */?>">MAP</a>-->
                 <?php endif; ?>
             </section>
         </section>
@@ -76,4 +76,33 @@
     <svg class="close" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <path d="M6.713 512C6.713 232.562 233.13 6.2 512 6.2c278.926 0 505.287 226.362 505.287 505.288V512A504.718 504.718 0 0 1 512 1017.287 505.116 505.116 0 0 1 6.713 512z m539.079 0l176.47-176.47a22.983 22.983 0 0 0 0-32.71l-1.082-1.081a22.983 22.983 0 0 0-32.71 0L512 478.72 335.53 301.739a22.983 22.983 0 0 0-32.71 0l-1.081 1.08a22.983 22.983 0 0 0 0 32.712l176.469 176.981-176.47 176.47a22.983 22.983 0 0 0 0 32.767l1.082 1.024a22.983 22.983 0 0 0 32.71 0L512 546.304l176.47 176.47a22.983 22.983 0 0 0 32.71 0l1.081-1.025a22.983 22.983 0 0 0 0-32.768L545.792 512z" p-id="13836"></path>
     </svg>
+</div>
+
+<!-- 好久不见 -->
+<div class="chenyuyc">
+    <div class="footer-fav">
+        <div class="container">
+            <div class="fl site-info">
+                <h2><a href="https://dun.so/" target="_blank">顿搜</a></h2>
+                <div class="site-p">
+                    <p>顿搜【白茶清欢无别事，我在等风也等你】</p>
+                    <p><?php if ($this->options->JBirthDay) : ?>
+                    <div class="item run">
+                        <span>风风雨雨 <strong class="joe_run__day">00</strong> 天 <strong class="joe_run__hour">00</strong> 时 <strong class="joe_run__minute">00</strong> 分，你是第<?php echo theAllViews();?>位相遇的小伙伴</span>
+                    </div>
+                    <?php endif; ?> </p>
+                    <!--<p><a href="javascript:;" id="chenyutime">风风雨雨N年，你是第N位相遇的小伙伴</a></p>-->
+                </div>
+            </div>
+            <div class="fr site-fav">
+                <a href="ttps://www.aiyo99.com/" class="btn btn-fav btn-orange">Ctrl+D收藏本站</a></div>
+            <div class="site-girl">
+                <div class="girl fl"> <i class="thumb " style="background-image:url(https://cdn.jsdelivr.net/gh/cy-j/chenyu/img/cyxy.png);"></i> </div>
+                <div class="girl-info hide_md">
+                    <h4>绿水本无忧，因风皱面</h4>
+                    <h4>青山原不老，为雪白头</h4>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

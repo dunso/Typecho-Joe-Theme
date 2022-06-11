@@ -892,6 +892,14 @@ function themeFields($layout)
     $layout->addItem($aside);
 }
 
+//门前大路上，走过一群小伙伴，快来数一数：2，4，6，7，8……
+function theAllViews()
+{
+    $db = Typecho_Db::get();
+    $row = $db->fetchAll('SELECT SUM(VIEWS) FROM `typecho_contents`');
+    echo number_format($row[0]['SUM(VIEWS)']);
+}
+
 function GetQQSharePic($widget)
 {
     if ($widget->fields->sharePic) {
@@ -1391,3 +1399,4 @@ class editor
         </script>
 <?php }
 } ?>
+

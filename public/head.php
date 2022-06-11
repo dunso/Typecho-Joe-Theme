@@ -71,6 +71,12 @@
 <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/joe.min.css?v=' . JoeVersion()); ?>" />
 <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/joe.responsive.min.css?v=' . JoeVersion()); ?>" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/library/joe.toast/joe.toast.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cy-j/chenyu@1.6.0/css/cydibu.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/cy-j/chenyu/css/bootstrap-grid.min.css">
+<!-- 悬挂的喵 -->
+<script type="text/javascript" src="/usr/themes/joe/xuanguamao/js/szgotop.js"></script>
+<link rel="stylesheet" type="text/css" href="/usr/themes/joe/xuanguamao/css/szgotop.css" />
+<div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -999px;"></div>
 
 <style>
     :root {
